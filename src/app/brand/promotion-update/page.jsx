@@ -1,9 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-// import Superdry from '../../../public/superdrylogo.png';
-// import Speedo from '../../../public/speedologo.png';
-// import Lulu from '../../../public/lululemonlogo.png';
-// import Uggsn from '../../../public/uggslogo.png';
 
 import Nikered from './assets/nikered.png';
 import Nike2 from './assets/nike2.png';
@@ -11,7 +7,7 @@ import Balan from './assets/bal.png';
 import NikeLemon from './assets/nikeLemon.png'
 import Kia from './assets/kia.png';
 import Burberry from './assets/burberry.png'
-import BurberryPef from './assets/burberrypef.png'
+import { FaEdit } from "react-icons/fa";
 
 const shopItems = [
     {
@@ -59,17 +55,18 @@ const shopItems = [
 
 const page = () => {
   return (
-    <div>
-        <div className='mt-40'>
+    <div className='container mx-auto'>
+        <div className=' mt-40'>
 
         </div>
-        <p className='text-center text-2xl font-bold'>Promotion Page</p>
-        <div className='flex justify-center gap-5 flex-wrap items-center'>
+        <p className='text-center text-2xl font-bold py-2'>Promotion Page Update</p>
+        <div className=' justify-start items-center'>
             {shopItems.map((item, index)=> (
-                <div className='border w-[200px] h-[300px] px-3 py-2 shadow-lg' key={index}>
+                <div className='flex justify-between mb-5 items-center border px-3 py-2 shadow-lg' key={index}>
                     <Image className='w-[150px]' src={item.productImg} alt=''/>
-                    <p>{item.desc}</p>
-                    <p>{item.price}</p>
+                    <p className='text-md'>{item.desc}</p>
+                    <p className='text-xl font-bold'>{item.price}</p>
+                    < FaEdit/>
                 </div>
             ))}
         </div>

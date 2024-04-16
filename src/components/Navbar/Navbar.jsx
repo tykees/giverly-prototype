@@ -96,12 +96,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href={'/customer/customer-login'} className="links">
+            <Link href={'/user-category'} className="links">
               Log In
             </Link>
           </li>
           <li>
-            <Link href={'/customer/customer-signup'} className="links">
+            <Link href={'/user-category'} className="links">
               Sign Up
             </Link>
           </li>

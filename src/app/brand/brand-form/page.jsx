@@ -12,12 +12,11 @@ const page = () => {
             </div>
             <div className='flex flex-col gap-5 w-1/2'>
             <p className='text-3xl font-bold'>Brand Application form </p>
-            <label htmlFor="">Registered Name</label>
-            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 '  type="text" required name="" id="" />
-            <label htmlFor="">Office Address</label>
-            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 '  type="text" required name="" id="" />
-            <label htmlFor="">Date of incorporation</label>
-            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5  '  type="date" required name="" id="" />
+            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Registered Name'  type="text" required name="" id="" />
+            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Office Address'  type="text" required name="" id="" />
+            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Email Address'  type="email" required name="" id="" />
+            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Password'  type="password" required name="" id="" />
+            <input className='outline-none w-[500px] h-[50px] rounded-full border border-slate-900 pl-5  ' placeholder='Date of incorporation'  type="date" required name="" id="" />
             <label htmlFor="">Discount</label>
             <div className='flex justify-start items-center'>
             <input className='outline-none w-[200px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='min' required  type="text" name="" id="" />

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { FaHouseUser } from "react-icons/fa";
 import { LuFactory } from "react-icons/lu";
 import { BiSolidDonateHeart } from "react-icons/bi";
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -15,17 +16,17 @@ const page = () => {
             <div className='flex flex-col rounded-lg hover:border-white shadow-lg justify-center items-center border border-slate-500 w-[200px] h-[180px] text-center'>
                  <FaHouseUser className='text-5xl text-slate-500 hover:text-slate-300' />
                 <p className='text-slate-500'>Customer</p>
-                <p className='border border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p>
+             <Link href={'/customer/customer-signup'}><p className='border cursor-pointer border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p> </Link>
             </div>
             <div className='flex flex-col rounded-lg hover:border-white shadow-lg justify-center items-center border border-slate-500 w-[200px] h-[180px] text-center'>
                  <LuFactory className='text-5xl text-slate-500 hover:text-slate-300' />
                 <p className='text-slate-500'>Brand</p>
-                <p className='border border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p>
+               <Link href={'/brand/brand-form'}><p className='border cursor-pointer border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p></Link> 
             </div>
             <div className='flex flex-col rounded-lg hover:border-white shadow-lg justify-center items-center border border-slate-500 w-[200px] h-[180px] text-center'>
                  <BiSolidDonateHeart className='text-5xl text-slate-500 hover:text-slate-300' />
                 <p className='text-slate-500'>Charity</p>
-                <p className='border border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p>
+                <p className='border cursor-pointer border-slate-500 text-slate-500 hover:bg-slate-500 hover:text-slate-200 btn-bg py-2 px-6 mt-5 rounded-full'>Select</p>
             </div>
         </div>
     </div>

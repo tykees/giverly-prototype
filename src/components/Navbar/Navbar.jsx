@@ -110,16 +110,13 @@ const Navbar = () => {
             <FaHeart className='text-2xl' />
             </Link>
           </li>
-          {/* <li className="relative">
-  <div className="flex items-center">
-    <span className="links">Language</span>
-    <IoMdArrowDropdown className="text-2xl" />
-  </div>
-  <ul className="absolute top-full left-0 mt-1 bg-white border border-gray-300 rounded-md shadow-lg">
-    <li className="py-1 px-3"><a href="#" className="block hover:bg-gray-100">English</a></li>
-    <li className="py-1 px-3"><a href="#" className="block hover:bg-gray-100">Arabic</a></li>
-  </ul>
-</li> */}
+          <li className="">
+          <select name="" id="">
+         <option value="">Language</option>
+        <option value="English">English</option>
+      <option value="Arabic">Arabic</option>
+    </select>
+</li>
         </ul>
       )}
 

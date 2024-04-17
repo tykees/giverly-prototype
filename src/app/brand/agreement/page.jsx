@@ -5,9 +5,9 @@ const page = () => {
     <div>
         <p>Retail Agreement Declaration</p>
         <div>
-            <p>This Retail Agreement Declaration ("Declaration") is entered into on [Date] by and between [Retailer Name] ("Retailer") and [Supplier Name] ("Supplier").</p>
+            <p>This Retail Agreement Declaration (Declaration) is entered into on [Date] by and between [Retailer Name] (Retailer) and [Supplier Name] (Supplier).</p>
             <p>1. Purpose</p>
-            <p>The purpose of this Declaration is to outline the terms and conditions governing the agreement between the Retailer and the Supplier for the sale and purchase of goods and/or services through the Retailer's website.</p>
+            <p>The purpose of this Declaration is to outline the terms and conditions governing the agreement between the Retailer and the Supplier for the sale and purchase of goods and/or services through the Retailer&apos;s website.</p>
             <p>2. Agreement Details</p>
             <p>Retailer: [Retailer Name]
             Supplier: [Supplier Name]
@@ -16,7 +16,7 @@ const page = () => {
             Goods/Services: [Description of Goods/Services]
             Price: The price for the goods/services shall be as agreed upon by both parties and specified in the attached agreement.</p>
             <p>3. Declaration</p>
-            <p>By accepting the terms and conditions on the Retailer's website, the Retailer and the Supplier agree to the following terms:</p>
+            <p>By accepting the terms and conditions on the Retailer&apos;s website, the Retailer and the Supplier agree to the following terms:</p>
             <ul>
                 <li>The Retailer agrees to display and offer for sale the goods/services supplied by the Supplier through its website in accordance with the terms and conditions set forth herein.</li>
                 <li>The Supplier agrees to supply the goods/services to the Retailer for sale through its website in a timely manner and ensure their quality meets the agreed-upon standards.</li>

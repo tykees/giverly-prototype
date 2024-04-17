@@ -16,9 +16,25 @@
   background-color: #00F7AE;
 }
 
+
 .head_text {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
+}
+
+.left-side {
+  background-color: #00F7AE;
+  height: 1215px;
+  width: 100%;
+}
+
+.left-side-gra {
+  background-color: #00F7AE;
+  height: 720px;
+}
+
+.table-fot {
+  font-size: 10px;
 }
 
 .download {

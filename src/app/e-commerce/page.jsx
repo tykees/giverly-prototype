@@ -8,7 +8,7 @@ import Link from 'next/link';
 import Nikered from './assets/nikered.png';
 import Nike2 from './assets/nike2.png';
 import Balan from './assets/bal.png';
-import NikeLemon from './assets/nikeLemon.png'
+import NikeLemon from './assets/nikelemon.png'
 import Kia from './assets/kia.png';
 import Burberry from './assets/burberry.png'
 import BurberryPef from './assets/burberrypef.png'

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Nikered from './assets/nikered.png';
 import Nike2 from './assets/nike2.png';
 import Balan from './assets/bal.png';
-import NikeLemon from './assets/nikeLemon.png'
+import NikeLemon from './assets/nikelemon.png'
 import Kia from './assets/kia.png';
 import Burberry from './assets/burberry.png'
 import { FaEdit } from "react-icons/fa";

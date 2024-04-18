@@ -82,17 +82,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href={'/about'} className="links">
+            <Link href={'/brands/partner-brands'} className="links">
               Brands
             </Link>
           </li>
           <li>
-            <Link href={'/'} className="links">
+            <Link href={'/charity/charity-list'} className="links">
               Charity
             </Link>
           </li>
           <li>
-            <Link href={'/business'} className="links">
+            <Link href={'/e-commerce'} className="links">
               Shop
             </Link>
           </li>
@@ -112,8 +112,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="">
-          <select className='text-black outline-none border' name="" id="">
-         <option value="">Default</option>
+          <select className='text-black outline-none' name="" id="">
+         <option value="">Language</option>
         <option value="English">English</option>
       <option value="Arabic">Arabic</option>
     </select>
@@ -133,7 +133,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href={'/#resources'} className="links flex justify-start gap-3 items-center font-normal text-2xl" onClick={handleMenuClick}>
+              <Link href={'/e-commerce'} className="links flex justify-start gap-3 items-center font-normal text-2xl" onClick={handleMenuClick}>
               <BsRocketTakeoff /> Shop
               </Link>
             </li>
@@ -158,8 +158,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="">
-          <select className='text-black outline-none border' name="" id="">
-         <option value="">Default</option>
+          <select className='text-black outline-none' name="" id="">
+         <option value="">Language</option>
         <option value="English">English</option>
       <option value="Arabic">Arabic</option>
     </select>

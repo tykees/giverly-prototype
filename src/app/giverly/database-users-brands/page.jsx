@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { IoSettingsOutline } from "react-icons/io5";
+import { MdDeleteOutline } from "react-icons/md";
+import { GrUpdate } from "react-icons/gr";
+
+
 import Tee from './assets/tee.png';
 import Lululemon from './assets/lululemonlogo.jpeg';
 import Speedologo from './assets/speedologo.png';
@@ -205,7 +209,7 @@ const page = () => {
                         <th className='border-t border-b  px-5 py-2'>Email</th>
                         <th className='border-t border-b  px-5 py-2'>City</th>
                         <th className='border-t border-b  px-5 py-2'>Actions</th>
-                        <th className='border-t border-b  px-5 py-2'>Delete</th>
+                        <th className='border-t border-b  px-5 py-2'>Update</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -231,7 +235,9 @@ const page = () => {
                             <td className='border-t border-b text-sm px-5 py-2'>{item.userEmail}</td>
                             <td className='border-t border-b text-sm px-5 py-2'>{item.userCity}</td>
                             <td className=' flex justify-center items-center gap-1 border-b  px-5 py-2'> <IoSettingsOutline className='' /> settings</td>
-                            <td className='border-t border-b w-[30px] px-10 py-1 my-3 rounded-full text-sm text-red-600'>Delete</td>
+                            <td className='border-t border-b w-[30px] px-5 py-1 my-3 text-md text-slate-600'>
+                             <div className='flex justify-center items-center gap-2'><MdDeleteOutline/> <GrUpdate/></div> 
+                            </td>
                         </tr>
                     ))}
                 </tbody>

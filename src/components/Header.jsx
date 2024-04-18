@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Headframe from '../../public/assetll.png'
 export const Header = () => {
@@ -12,8 +13,8 @@ export const Header = () => {
                 <p className='text-slate-500 text-xl'>A priceless experience of charity for the same price. It&apos;s simple and 100% free.</p>
                 </div>
                 <div className='flex flex-col-reverse justify-around gap-5 md:gap-0 md:flex-row items-center'>
-                    <button className='btn_bg w-[200px] md:w-[320px] hover:bg-slate-50 shadow-md md:py-4 py-3  md:rounded-l-full px-2 md:px-5'>Support A Cause</button>
-                    <button className='btn_bg w-[200px] md:w-[320px] hover:bg-slate-50 shadow-md md:py-4 py-3 md:rounded-r-full px-2 md:px-5'>Register A Cause</button>
+                 <Link href={'/customer/customer/signup'}> <button className='btn_bg w-[200px] md:w-[320px] hover:bg-slate-50 shadow-md md:py-4 py-3  md:rounded-l-full px-2 md:px-5'>Support A Cause</button></Link> 
+                  <Link href={'/charity/charity-form'}> <button className='btn_bg w-[200px] md:w-[320px] hover:bg-slate-50 shadow-md md:py-4 py-3 md:rounded-r-full px-2 md:px-5'>Register A Cause</button></Link> 
                 </div>
             </div>
             <div className='md:w-1/2'>

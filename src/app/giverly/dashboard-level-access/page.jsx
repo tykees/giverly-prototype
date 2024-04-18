@@ -17,6 +17,8 @@ import Jessica from './assets/jessica.png';
 import Man from './assets/man.jpg';
 import Father from './assets/father.jpeg'
 
+import Link from 'next/link';
+
 
 const users =[
     {
@@ -127,7 +129,14 @@ const page = () => {
                 <button className='btn-bg px-8 w-[150px] rounded-lg mt-2 py-2'>Search</button>
                 </div>
             </div>
-          
+            <div className='flex justify-center text-slate-400 items-center gap-5'>
+            <Link href={'/giverly/database-users-brands'}><button className='btn- text-sm px-3 py-2 rounded-md'>All users</button></Link> 
+            <Link href={'/giverly/donation-to-charity'}> <button className='btn-  text-sm px-3 py-2 rounded-md'>Donations to Charity</button></Link>
+            <Link href={'/giverly/commission-history'}><button className='btn-  text-sm px-3 py-2 rounded-md'>Commision History</button></Link>
+              <button className='btn-  text-sm px-3 py-2 rounded-md'>Contracts</button>
+           <Link href={'/giverly/graphical-dashboard'}> <button className='btn-  text-sm px-3 py-2 rounded-md'>Analytics</button></Link>
+
+            </div>
         </div>
         <div className='flex justify-center items-center'>
             <table className='table-auto text-center shadow-lg w-[1200px]'>

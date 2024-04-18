@@ -2,27 +2,26 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div className=''>
-        <div className='flex container flex-col justify-around md:flex-row md:px-6 mx-auto pt-10 space-y-0 md:space-y-0 mt-40'>
-            <div className='border trac_box mb-2 py-6 w-[350px] px-10 rounded-lg'>
+    <div className='cust'>
+        <div className='flex justify-start flex-wrap gap-8 md:pb-10 pt-10 space-y-0 md:space-y-0 mt-40'>
+            <div className='border trac_box py-6 w-[300px] px-5 rounded-lg'>
                 <p className='text-md'>Card Transactions</p>
                 <p className='text-sm text-slate-400'>Total with debit card</p>
                 <p className='text-2xl font-semibold'>$2,050</p>
             </div>
-            <div className='border bg-slate-500 mb-2 py-6  w-[350px]  px-10 rounded-lg'>
+            <div className='border bg-slate-500 mb-2 py-6  w-[300px]  px-5 rounded-lg'>
                 <p className='text-md text-white'>Crypto Transactions</p>
                 <p className='text-sm text-slate-400'>Total with Cryptos</p>
                 <p className='text-2xl text-white font-semibold'>$9,100</p>
             </div>
-            <div className='border trac_box py-6 mb-2  w-[350px]  px-10 rounded-lg'>
+            <div className='border trac_box py-6 mb-2  w-[300px]  px-5 rounded-lg'>
                 <p className='text-md'>Total Transaction</p>
                 <p className='text-sm text-slate-400'>All transaction</p>
                 <p className='text-2xl font-semibold'>$11,150</p>
             </div>
         </div>
-        <div className=' mt-20 flex justify-center items-center'>
         <p></p>
-        <table className='table-auto tab-auto w-[1180px]'>
+        <table className='tab-auto'>
             <thead className='border rounded-lg'>
                 <tr>
                     <th className='border rounded-lg px-10 py-2'>TrancID</th>
@@ -77,7 +76,6 @@ const page = () => {
            
             </tbody>
         </table>
-        </div>
     </div>
   )
 }

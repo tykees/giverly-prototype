@@ -11,7 +11,12 @@ import  Puma from '../../../../public/pumalogo.png';
 const page = () => {
   return (
     <div className=' partner-brands bg-slate-100 pb-40 pt-40'>
-       <p className='text-3xl font-extrabold ml-12 mb-5'>Shop Brands</p>
+        <div className='flex justify-around items-center'>
+             <p className='text-3xl font-extrabold mb-5'>Shop Brands</p>
+             <Link href={'/customer/user-account'}>
+            <p className='bg-slate-700 text-green-300 text-sm rounded-full px-4 py-2 cursor-pointer'>My Account</p>
+            </Link>
+        </div>
         <div className='flex justify-around  flex-wrap gap-5 items-center'>
             <div className='flex px-5 py-5 bg-white justify-around rounded-xl items-center shadow'>
                 <div className='w-[300px]'>

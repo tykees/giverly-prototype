@@ -6,7 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+  overflow-x: hidden;
+}
 
 .btn_bg {
   background-color: #00F7AE;
@@ -67,13 +69,20 @@
 
 .user_category {
   background-color: #00F7AE;
-  height: 500px;
+  height: 600px;
 }
 
 .trac_box {
   background-color: #00F7AE;
 }
 
-.tab-auto {
-  overflow-x: hidden;
+/* .tab-auto, .cust {
+  overflow-x: auto;
+} */
+
+@media screen and (max-width: 650px) {
+  .user_category {
+    background-color: #00F7AE;
+    height: 1000px;
+  }
 }

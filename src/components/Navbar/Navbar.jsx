@@ -10,6 +10,7 @@ import { GrDomain } from "react-icons/gr";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 import { IoIosUnlock } from "react-icons/io";
+import { IoCloseSharp } from "react-icons/io5";
 import Image from 'next/image';
 import Link from 'next/link';
 import './navbar.css';
@@ -111,8 +112,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="">
-          <select name="" id="">
-         <option value="">Language</option>
+          <select className='text-black outline-none border' name="" id="">
+         <option value="">Default</option>
         <option value="English">English</option>
       <option value="Arabic">Arabic</option>
     </select>
@@ -123,7 +124,7 @@ const Navbar = () => {
       {isMobile && (
         <div className={`mobile-menu ${showMenu ? 'show' : ''}`}>
           <button className="close-button" onClick={closeMobileMenu}>
-            X
+          <IoCloseSharp />
           </button>
           <ul>
             <li>
@@ -156,15 +157,21 @@ const Navbar = () => {
              Privacy Policy   <IoIosUnlock />
               </Link>
             </li>
-
-            {/* <span className='the_buttons'>
-            <li className='the_buttons'>
-            <Link href={'/enrol'} className="p-2 flex text-2xl rounded-full justify-center px-6 pt-1 text-black font-medium  baseline" onClick={handleMenuClick}>Sign Up</Link>
+            <li className="">
+          <select className='text-black outline-none border' name="" id="">
+         <option value="">Default</option>
+        <option value="English">English</option>
+      <option value="Arabic">Arabic</option>
+    </select>
+</li>
+            <span className='the_buttons'>
+            <li className='btns mt-5'>
+            <Link href={'/user-category'} className="flex text-2xl rounded-full justify-center px-5 text-black font-medium " onClick={handleMenuClick}>Log in</Link>
           </li>
           </span>
           <li className='btns mt-5'>
-            <Link href={'/enrol'} className="p-2 flex text-2xl rounded-full justify-center px-6 pt-1 text-black font-medium  baseline" onClick={handleMenuClick}>Sign Up</Link>
-          </li> */}
+            <Link href={'/user-category'} className="flex text-2xl rounded-full justify-center px-5 text-black font-medium " onClick={handleMenuClick}>Sign Up</Link>
+          </li>
           </ul>
         </div>
       )}

@@ -129,13 +129,14 @@
 
 .the_buttons li{
   background-color: #00F7AE;
- 
-
 }
 
 .btns {
   background-color: #00F7AE;
   border-radius: 50px;
+  width: 250px;
+  height: 70px;
+  margin-left: 10px;
 }
 
 
@@ -160,10 +161,11 @@
     justify-content: flex-start;
     top: 10px;
     right: 10px;
-    font-size: 40px;
-    color: #00F7AE;
+    font-size: 35px;
+    color: #313232;
     outline: none;
     border: none;
+    margin-bottom: 20px;
     cursor: pointer;
   }
   

@@ -31,7 +31,7 @@ const page = () => {
             <input className='outline-none w-full md:w-[500px] h-[40px] rounded-full border border-slate-900 pl-5  ' placeholder='Password' type="password" required name="" id="" />
             {/* <label htmlFor="">Confirm Password</label> */}
             <input className='outline-none w-full md:w-[500px] h-[40px] rounded-full border border-slate-900 pl-5  ' placeholder='Confirm Password'  type="password" required name="" id="" />
-            <Link href={'/submited'}>
+            <Link href={'/customer/welcome'}>
             <button className='btn-bg px-12 w-[200px] rounded-full mt-5 py-3'>Submit</button>
             </Link>
             <Link href={'/customer/customer-login'}>

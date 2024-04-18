@@ -22,11 +22,19 @@
   font-style: normal;
 }
 
+.welcome {
+  background-color: #00F7AE;
+}
+
 .left-side {
   background-color: #00F7AE;
   height: 1215px;
   width: 100%;
 }
+
+/* .partner-brands {
+  background-color: #00F7AE;
+} */
 
 .left-side-gra {
   background-color: #00F7AE;

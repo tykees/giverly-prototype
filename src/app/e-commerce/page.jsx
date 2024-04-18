@@ -4,7 +4,7 @@ import Image from 'next/image'
 // import Speedo from '../../../public/speedologo.png';
 // import Lulu from '../../../public/lululemonlogo.png';
 // import Uggsn from '../../../public/uggslogo.png';
-
+import Link from 'next/link';
 import Nikered from './assets/nikered.png';
 import Nike2 from './assets/nike2.png';
 import Balan from './assets/bal.png';
@@ -59,17 +59,19 @@ const shopItems = [
 
 const page = () => {
   return (
-    <div>
+    <div className='container mx-auto'>
         <div className='mt-40'>
 
         </div>
-        <p className='text-center text-2xl font-bold'>Promotion Page</p>
-        <div className='flex justify-center gap-5 flex-wrap items-center'>
+        <p className='text-center text-2xl my-4 font-bold'>Promotion Page</p>
+        <div className='flex justify-start gap-5 flex-wrap items-center'>
             {shopItems.map((item, index)=> (
-                <div className='border w-[200px] h-[300px] px-3 py-2 shadow-lg' key={index}>
-                    <Image className='w-[150px]' src={item.productImg} alt=''/>
-                    <p>{item.desc}</p>
-                    <p>{item.price}</p>
+                <div className='border w-[250px] flex flex-col justify-center items-center hover:border-green-300 min-h-[350px] px-3 py-2 shadow-lg' key={index}>
+                    <Image className='w-[150px]'  src={item.productImg} alt=''/>
+                   
+                    <p className='text-center'>{item.desc}</p>
+                    <p className='text-center text-xl font-bold mt-4'>{item.price}</p>
+                  <Link href={'/brand/payment'}> <button className='btn-bg px-10 py-2 rounded-full mt-4'>Buy</button></Link>
                 </div>
             ))}
         </div>

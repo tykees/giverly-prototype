@@ -2,9 +2,9 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div className='container mx-auto mt-40'>
-        <p className='text-2xl font-bold'>Brand Transactions</p>
-        <div className='flex container flex-col justify-around md:flex-row md:px-6 mx-auto pt-10 space-y-0 md:space-y-0'>
+    <div className=''>
+        <div className='flex container flex-col justify-around md:flex-row md:px-6 mx-auto pt-10 space-y-0 md:space-y-0 mt-40'>
+            <p>BRAND TRANSACTION DASHBOARD</p>
             <div className='border trac_box mb-2 py-6 w-[350px] px-10 rounded-lg'>
                 <p className='text-md'>Card Transactions</p>
                 <p className='text-sm text-slate-400'>Total with debit card</p>

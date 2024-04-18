@@ -97,7 +97,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href={'/user-category'} className="links">
+            <Link href={'/customer/user-category-signin'} className="links">
               Log In
             </Link>
           </li>
@@ -166,7 +166,7 @@ const Navbar = () => {
 </li>
             <span className='the_buttons'>
             <li className='btns mt-5'>
-            <Link href={'/user-category'} className="flex text-2xl rounded-full justify-center px-5 text-black font-medium " onClick={handleMenuClick}>Log in</Link>
+            <Link href={'/customer/user-category-signin'} className="flex text-2xl rounded-full justify-center px-5 text-black font-medium " onClick={handleMenuClick}>Log in</Link>
           </li>
           </span>
           <li className='btns mt-5'>

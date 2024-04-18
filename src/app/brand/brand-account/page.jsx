@@ -15,7 +15,7 @@ const page = () => {
   return (
     <>
     <div className='user-details'>
-    <div className='container mx-auto'>
+    <div className='container mx-auto ml-5'>
         <div className='flex flex-col gap-40 justify-center items-start md:justify-around md:flex-row mx-auto space-y-0 md:space-y-0 pb-40 pt-40'>
             <div>
                 <Image className='w-[350px] md:w-[200px] shadow-xl' src={Superdry} alt='userimg'></Image>
@@ -30,6 +30,15 @@ const page = () => {
                     <li>Content writing</li>
                     <li>Marketing</li>
                 </ul> */}
+                  <p className='text-slate-500 py-1'>Update Discount</p>
+                <input className='accent-slate-600 w-full' type="range" name="" id="" />
+               <div className='flex justify-between mt-5 text-slate-600 items-center'>
+               <sup>1%</sup>
+               <sup>50%</sup>
+               <sup>100%</sup>
+                </div> 
+                <p className='text-center rounded-md shadow bg-slate-500 text-green-300 mt-10 px-3 py-2'>Update</p>
+
             </div>
             <div>
                 <div className='flex justify-start items-center'>
@@ -72,10 +81,7 @@ const page = () => {
                 <p className='border shadow-lg rounded-md px-2 text-sm py-2'>Cryptocurrency</p>
                 <p className='text-md mt-3 font-bold'>Total Credit: USD $19,089.03</p>
                 <Link href={'/brand/brand-dashboard'}><p className='my-2 border shadow-lg text-slate-200 text-center hover:text-green-400 hover:border-green-400 rounded-md px-3 cursor-pointer'>All Transactions</p></Link>  
-
                 </div>
-                <p className='text-slate-500 py-1'>Update Discount</p>
-                <input className='accent-slate-600 w-full' type="range" name="" id="" />
                 <p className='mt-5 text-center bg-red-600 text-white px-4 py-2 rounded-lg'>Delete Acct</p>
 
             </div>

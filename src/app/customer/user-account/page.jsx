@@ -7,7 +7,7 @@ import { FaRegUser } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegMoneyBill1 } from "react-icons/fa6";
 import Link from 'next/link';
-
+import Clipboard from '../../../components/Referral';
 import { IoLocationOutline } from "react-icons/io5";
 
 
@@ -29,6 +29,7 @@ const page = () => {
                     <li>Content writing</li>
                     <li>Marketing</li>
                 </ul>
+                <Clipboard/>
             </div>
             <div>
                 <div className='flex justify-start items-center'>

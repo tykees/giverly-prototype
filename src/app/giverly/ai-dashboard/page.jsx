@@ -74,32 +74,65 @@ const users =[
 
 const page = () => {
   return (
-    <div className='pt-30 mt-24 shadow'>
+    <div className='pt-40 bg-black shadow'>
         <div className='flex justify-around items-start'>
                 <div className='left-side-ai pt-10 w-[500px]'>
                     <ul className='mx-2'>
-                        <li className='flex justify-start items-center gap-3 text-slate-600 py-3 pl-2 rounded-lg shadow-lg mb-5'> <GiRobotGolem /> Giverly AI</li>
-                        <li className='flex justify-start items-center gap-3 text-slate-600 py-3 pl-2 rounded-lg shadow mb-5'> <ImProfile />Profile</li>
-                        <li className='flex justify-start items-center gap-3 text-slate-600 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineReport />Report</li>
-                        <li className='flex justify-start items-center gap-3 text-slate-600 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineMessage />Messages</li>
-                        <li className='flex justify-start items-center gap-3 text-slate-600 py-3 pl-2 rounded-lg shadow mb-5'> <IoSettingsOutline />Setting</li>
+                        <li className='flex justify-start items-center gap-3 text-slate-500 btn-bg py-3 pl-2 text-xl font-extrabold rounded-lg shadow-lg mb-5'> <GiRobotGolem /> Giverly Predictive AI</li>
+                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <ImProfile />Sales Projection</li>
+                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineReport />Report</li>
+                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineMessage />Data</li>
+                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <IoSettingsOutline />Data Process</li>
                     </ul>
                 </div>
 
                 <div>
-                    <div className='flex justify-between mt-20 gap-10 items-center'>
-                    <p className='text-2xl ml-8 font-bold'>Graphical Visualization DB</p>
-                    <p className='flex justify-start items-start gap-2 text-sm mr-8 shadow-lg text-green-500 rounded-full py-2 px-3 font-bold'> <SlCalender /> 17-04-2024</p>
+                    <div className='flex justify-around mt-10 gap-5 items-center'>
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>0.000055%</p>
+                    <p className='text-sm'>Customer Impact</p>
+                    <sub className='mt-2 text-green-400'>12%</sub>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>1.000055%</p>
+                    <p className='text-sm'>Customer Impact</p>
+                    <sub className='mt-2 text-red-400'>-32%</sub>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>20.00055%</p>
+                    <p className='text-sm'>Charity Impact</p>
+                    <sub className='mt-2 text-green-400'>22%</sub>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>0.000055%</p>
+                    <p className='text-sm'>Customer Impact</p>
+                    <sub className='mt-2 text-green-400'>12%</sub>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>10.000055%</p>
+                    <p className='text-sm'>Brand Impact</p>
+                    <sub className='mt-2 text-red-400'>-2%</sub>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center text-slate-400'>
+                    <p className='text-lg font-bold '>102.05%</p>
+                    <p className='text-sm'>Giver growth</p>
+                    <sub className='mt-2 text-green-400'>18%</sub>
+                    </div>
                     </div>
 
                     <div className='flex justify-around gap-5 flex-wrap items-center'>
-                        <div className='border w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
+                        <div className='border border-green-400 w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
                         <ChartTwo />
                         </div>
-                        <div className='border w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-1 mx-1 my-5'>
+                        <div className='border border-green-400 w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-1 mx-1 my-5'>
                         <ChartThree/>
                         </div>
-                        <div className='border w-[500px] h-[250px] shadow-lg rounded-lg mt-5 pt-5 px-5 mx-2 my-2'>
+                        <div className='border w-[500px] border-green-400 h-[250px] shadow-lg rounded-lg mt-5 pt-5 px-5 mx-2 my-2'>
                         <div className='flex justify-center  items-center'>
                   <table className='table-auto table-fot text-center w-[400px]'>
                 <thead className='text-start font-bold'>
@@ -128,7 +161,7 @@ const page = () => {
             </table>
         </div>
                         </div>   
-                        <div className='border w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
+                        <div className='border border-green-400 w-[500px] h-[250px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
                             <ChartOne/>
                         </div>                  
                     </div>

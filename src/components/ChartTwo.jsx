@@ -23,7 +23,7 @@ const ChartTwo = () => (
     <YAxis />
     <Tooltip />
     <Legend />
-    <Bar dataKey="pv" fill="#8884d8" />
+    <Bar dataKey="pv" fill="#00F7AE" />
     <Bar dataKey="uv" fill="red" />
   </BarChart>
 );

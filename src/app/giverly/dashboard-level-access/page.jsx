@@ -133,7 +133,7 @@ const page = () => {
             <Link href={'/giverly/database-users-brands'}><button className='btn- text-sm px-3 py-2 rounded-md'>All users</button></Link> 
             <Link href={'/giverly/donation-to-charity'}> <button className='btn-  text-sm px-3 py-2 rounded-md'>Donations to Charity</button></Link>
             <Link href={'/giverly/commission-history'}><button className='btn-  text-sm px-3 py-2 rounded-md'>Commision History</button></Link>
-              <button className='btn-  text-sm px-3 py-2 rounded-md'>Contracts</button>
+            <Link href={'/giverly/ai-dashboard'}><button className='btn-  text-sm px-3 py-2 rounded-md'>Ai-dashboard</button></Link> 
            <Link href={'/giverly/graphical-dashboard'}> <button className='btn-  text-sm px-3 py-2 rounded-md'>Analytics</button></Link>
 
             </div>

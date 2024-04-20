@@ -63,6 +63,11 @@ body {
   margin-top: -80px;
 }
 
+.left-side-ai {
+  background-color: #000;
+  height: 720px;
+}
+
 .user_category {
   background-color: #00F7AE;
   height: 600px;
@@ -74,6 +79,10 @@ body {
 
 .cha-details {
   
+}
+
+.rating {
+  background-color: #00F7AE;
 }
 
 /* .tab-auto, .cust {

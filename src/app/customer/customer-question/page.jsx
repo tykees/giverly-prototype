@@ -18,7 +18,7 @@ const page = () => {
             <input className='outline-none w-[300px] h-[40px] rounded-full border border-slate-900 pl-2 ' placeholder=''  type="text" required name="" id="" />
              </div>
             <Link href={'/customer/welcome-back'}>
-            <button className='btn-bg px-12 w-[200px] rounded-full mt-5 py-3'>Confirm</button>
+            <button className='btn-bg px-12 w-[300px] rounded-full mt-5 py-3'>Confirm</button>
             </Link>
         </div>
     </div>

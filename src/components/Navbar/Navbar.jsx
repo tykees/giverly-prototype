@@ -92,7 +92,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href={'/e-commerce'} className="links">
+            <Link href={'/e-shop'} className="links">
               Shop
             </Link>
           </li>
@@ -133,7 +133,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href={'/e-commerce'} className="links flex justify-start gap-3 items-center font-normal text-2xl" onClick={handleMenuClick}>
+              <Link href={'/e-shop'} className="links flex justify-start gap-3 items-center font-normal text-2xl" onClick={handleMenuClick}>
               <BsRocketTakeoff /> Shop
               </Link>
             </li>

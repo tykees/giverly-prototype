@@ -177,13 +177,13 @@ const page = () => {
                         <p className='text-sm text-slate-400'>Since Last month</p>
                         </div>
                         <div className='border w-[250px] h-[120px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
-                        <p className='text-sm'>Total Donation</p>  
-                        <p className=' flex justify-between items-center text-xl'>26778 <span className='text-white rounded-full p-3 bg-green-400'><FaChartLine /></span> </p>
+                        <p className='text-sm'>Distribution</p>  
+                        <p className=' flex justify-between items-center text-xl'>1678 <span className='text-white rounded-full p-3 bg-green-400'><FaChartLine /></span> </p>
                         <p className='text-sm text-slate-400'>Since Last month</p>
                         </div>
                         <div className='border w-[250px] h-[120px] rounded-lg mt-5 shadow-lg pt-5 px-5 mx-5 my-5'>
-                        <p className='text-sm'>Total Donation</p>  
-                        <p className=' flex justify-between items-center text-xl'>26778 <span className='text-white rounded-full p-3 bg-green-400'><FaChartLine /></span> </p>
+                        <p className='text-sm'>Growth</p>  
+                        <p className=' flex justify-between items-center text-xl'>708 <span className='text-white rounded-full p-3 bg-green-400'><FaChartLine /></span> </p>
                         <p className='text-sm text-slate-400'>Since Last month</p>
                         </div>                   
                     </div>

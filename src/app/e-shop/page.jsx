@@ -111,7 +111,7 @@ const page = () => {
                    
                     <p className='text-center'>{item.desc}</p>
                     <p className='text-center text-xl font-bold mt-4'>{item.price}</p>
-                  <Link href={'/brand/payment'}> <button className='btn-bg px-20 py-2 rounded-full mt-4'>Buy</button></Link>
+                  <Link href={'/brand-website'}> <button className='btn-bg px-20 py-2 rounded-full mt-4'>Buy</button></Link>
                 </div>
             ))}
         </div>

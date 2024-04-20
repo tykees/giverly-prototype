@@ -2,10 +2,10 @@ import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const data = [
-  { name: 'Customers', uv: 4000, pv: 2400, amt: 2400 },
-  { name: 'Brands', uv: 3000, pv: 1398, amt: 2210 },
-  { name: 'Charity', uv: 2000, pv: 9800, amt: 2290 },
-  { name: 'All', uv: 2780, pv: 3908, amt: 2000 },
+  { name: 'Customers', Growth: 4000, Proj: 2400, amt: 2400 },
+  { name: 'Brands', Growth: 3000, Proj: 1398, amt: 2210 },
+  { name: 'Charity', Growth: 2000, Proj: 9800, amt: 2290 },
+  { name: 'All', Growth: 2780, Proj: 3908, amt: 2000 },
  
 ];
 
@@ -23,8 +23,8 @@ const ChartTwo = () => (
     <YAxis />
     <Tooltip />
     <Legend />
-    <Bar dataKey="pv" fill="#00F7AE" />
-    <Bar dataKey="uv" fill="red" />
+    <Bar dataKey="Proj" fill="#00F7AE" />
+    <Bar dataKey="Growth" fill="red" />
   </BarChart>
 );
 

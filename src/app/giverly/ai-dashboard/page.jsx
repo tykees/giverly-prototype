@@ -79,7 +79,7 @@ const page = () => {
                 <div className='left-side-ai pt-10 w-[500px]'>
                     <ul className='mx-2'>
                         <li className='flex justify-start items-center gap-3 text-slate-500 btn-bg py-3 pl-2 text-xl font-extrabold rounded-lg shadow-lg mb-5'> <GiRobotGolem /> Giverly Predictive AI</li>
-                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <ImProfile />Sales Projection</li>
+                        <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <ImProfile />Activity Projection</li>
                         <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineReport />Report</li>
                         <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <MdOutlineMessage />Data</li>
                         <li className='flex justify-start items-center gap-3 text-green-300 py-3 pl-2 rounded-lg shadow mb-5'> <IoSettingsOutline />Data Process</li>

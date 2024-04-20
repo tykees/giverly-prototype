@@ -2,18 +2,17 @@ import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const data = [
-  { name: 'Page A', uv: 4000, pv: 2400, amt: 2400 },
-  { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 },
-  { name: 'Page C', uv: 2000, pv: 2000, amt: 2290 },
-  { name: 'Page D', uv: 2780, pv: 3908, amt: 2000 },
-  { name: 'Page E', uv: 1890, pv: 4800, amt: 2181 },
-  { name: 'Page F', uv: 2390, pv: 3800, amt: 2500 },
+  { name: 'Customer A', uv: 5000, qv: 2400, amt: 2400 },
+  { name: 'Customer B', uv: 3000, qv: 1398, amt: 2210 },
+  { name: 'Customer C', uv: 2000, qv: 2000, amt: 2290 },
+  { name: 'Customer D', uv: 2780, qv: 3908, amt: 2000 },
+  
 ];
 
 const ChartThree = () => (
   <BarChart
     width={500}
-    height={250}
+    height={230}
     data={data}
     margin={{
       top: 10, right: 40, left: 5, bottom: 10,
@@ -24,7 +23,7 @@ const ChartThree = () => (
     <YAxis />
     <Tooltip />
     <Legend />
-    <Bar dataKey="pv" fill="#8884d8" />
+    <Bar dataKey="qv" fill="#8884d8" />
     <Bar dataKey="uv" fill="orange" />
   </BarChart>
 );

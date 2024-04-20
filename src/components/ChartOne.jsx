@@ -7,19 +7,19 @@ const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 
 const data = [
   {
-    name: 'Page A',
+    name: 'Customers',
     uv: 4000,
     pv: 2400,
     amt: 2400,
   },
   {
-    name: 'Page B',
+    name: 'Brands',
     uv: 3000,
     pv: 1398,
     amt: 2210,
   },
   {
-    name: 'Page C',
+    name: 'Charity',
     uv: 2000,
     pv: 9800,
     amt: 2290,
@@ -31,7 +31,7 @@ const data = [
     amt: 2000,
   },
   {
-    name: 'Page E',
+    name: 'Brands',
     uv: 1890,
     pv: 4800,
     amt: 2181,

@@ -77,7 +77,7 @@ const Navbar = () => {
 
         <ul className="nav-links text-md container flex items-center gap-2 justify-end text-end">
           <li>
-            <Link href={'/#resources'} className="links">
+            <Link href={'/'} className="links">
               Home
             </Link>
           </li>

@@ -11,7 +11,7 @@ const page = () => {
   return (
     <div>
         <div className='mt-40'>
-            <p className='text-center text-3xl font-bold'>Partner Brands</p>
+            <p className='text-center text-3xl font-bold'>Charity List</p>
         <div className='flex flex-col-reverse justify-around md:flex-row md:px-6 mx-auto pt-10 space-y-0 md:space-y-0 '>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={RSPCA} alt='img'/>

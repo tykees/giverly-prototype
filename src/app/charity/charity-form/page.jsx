@@ -10,13 +10,13 @@ const page = () => {
             <div>
             <Image className='w-[600px]' src={ShopImg} alt='img'></Image>
             </div>
-            <div className='flex flex-col gap-5 w-1/2'>
+            <div className='flex flex-col gap-3 w-1/2'>
             <p className='text-3xl font-bold'>Charity Sign up </p>
-            <input className='outline-none w-[380px] md:w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Registered Name'  type="text" required name="" id="" />
-            <input className='outline-none w-[380px] md:w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Office Address'  type="text" required name="" id="" />
-            <input className='outline-none w-[380px] md:w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Email Address'  type="email" required name="" id="" />
-            <input className='outline-none w-[380px] md:w-[500px] h-[50px] rounded-full border border-slate-900 pl-5 ' placeholder='Password'  type="password" required name="" id="" />
-            <input className='outline-none w-[380px] md:w-[500px] h-[50px] rounded-full border border-slate-900 pl-5  ' placeholder='Date of incorporation'  type="date" required name="" id="" />
+            <input className='outline-none w-[380px] md:w-[450px] h-[40px] rounded-full border border-slate-900 pl-5 ' placeholder='Registered Name'  type="text" required name="" id="" />
+            <input className='outline-none w-[380px] md:w-[450px] h-[40px] rounded-full border border-slate-900 pl-5 ' placeholder='Office Address'  type="text" required name="" id="" />
+            <input className='outline-none w-[380px] md:w-[450px] h-[40px] rounded-full border border-slate-900 pl-5 ' placeholder='Email Address'  type="email" required name="" id="" />
+            <input className='outline-none w-[380px] md:w-[450px] h-[40px] rounded-full border border-slate-900 pl-5 ' placeholder='Password'  type="password" required name="" id="" />
+            <input className='outline-none w-[380px] md:w-[450px] h-[40px] rounded-full border border-slate-900 pl-5  ' placeholder='Date of incorporation'  type="date" required name="" id="" />
             <label htmlFor="">Upload Documents</label>
             <input  type="file" name="" id="" />
             <span className='text-sm font-bold underline'>+ Add more</span>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Visa from '../../../../public/visa.png'
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -12,15 +13,15 @@ const page = () => {
             </div>
             <div className='flex flex-col justify-center mt-10 items-center'>
             <select className='outline-none w-[380px] h-[40px] rounded-lg border border-slate-400 pl-5 mb-10'  name="" id="">
-                <option value="RSPCA South Australia">RSPCA South Australia</option>
-                <option value="Hen House Coop">Hen House Coop</option>
-                <option value="99% Marley">99% Marley</option>
-                <option value="Amalia Maliaka ">Amalia Maliaka</option>
-                <option value="In2EdAfrica">In2EdAfrica</option>
-                <option value="Maisha Flow">Maisha Flow</option>
-                <option value="Forevermore Foundation">Forevermore Foundation</option>
+                <option value="RSPCA South Australia">RSPCA UAE</option>
+                <option value="Hen House Coop">Hen House Coop UAE</option>
+                <option value="99% Marley">99% Marley UAE</option>
+                <option value="Amalia Maliaka ">Amalia Maliaka UAE</option>
+                <option value="In2EdAfrica">In2EdUAE</option>
+                <option value="Maisha Flow">Maisha Flow UAE</option>
+                <option value="Forevermore Foundation">Forevermore Foundation UAE</option>
             </select>
-            <p>Discount: 5%</p>
+            {/* <p>Discount: 5%</p> */}
             </div>
             <div className='flex flex-col justify-center gap-5 items-center'>
                 <input className='outline-none w-[380px] h-[40px] rounded-lg border border-slate-400 pl-5 ' placeholder='Holder Name' type="text" name="" id="" />
@@ -38,7 +39,7 @@ const page = () => {
         </div>
         <div className='flex justify-center mt-4 gap-4 w-[400px] mx-auto items-center py-2 px-2 bg-slate-200 border border-slate-400'>
             <input  type="checkbox" name="" id="" />
-            <p className='text-sm'>Pay With Crypto</p>
+          <Link href={'/brand/crypto-payment'}> <p className='text-sm'>Pay With Crypto</p></Link> 
         </div>
     </div>
   )

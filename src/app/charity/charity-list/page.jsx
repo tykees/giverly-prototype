@@ -15,27 +15,27 @@ const page = () => {
         <div className='flex flex-col-reverse justify-around md:flex-row md:px-6 mx-auto pt-10 space-y-0 md:space-y-0 '>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={RSPCA} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>RSPCA South Australia</p>
+                <p className='mt-5 px-2 w-[180px]'>RSPCA UAE</p>
             </div>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={Henhouse} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>Hen House Coop</p>
+                <p className='mt-5 px-2 w-[180px]'>Hen House Coop UEA</p>
             </div>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={nintynine} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>99% Marley</p>
+                <p className='mt-5 px-2 w-[180px]'>99% Marley UAE</p>
             </div>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={Amalia} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>Amalia Maliaka</p>
+                <p className='mt-5 px-2 w-[180px]'>Amalia Maliaka UAE</p>
             </div>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={Africa} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>In2EdAfrica</p>
+                <p className='mt-5 px-2 w-[180px]'>In2EdUAE</p>
             </div>
             <div className='flex flex-col justify-center items-center w[120px] h-[150px] border rounded-lg shadow-md'>
                 <Image className='overimg rounded-full w-[100px]' src={Flowlogo} alt='img'/>
-                <p className='mt-5 px-2 w-[180px]'>Maisha Flow</p>
+                <p className='mt-5 px-2 w-[180px]'>Maisha Flow UAE</p>
             </div>
         </div>
         </div>

@@ -15,6 +15,33 @@
   /* background: linear-gradient(135deg, #f6d7b5, #dae8ff); */
 }
 
+/* */
+/* styles.css */
+
+/* .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+} */
+
+/* .nav-item {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+} */
+
+/* .nav-item:hover {
+  cursor: pointer;
+} */
+
+/* .nav-item.active {
+  text-decoration: underline;
+} */
+
+/* */
+
 
 .mobile-menu {
     text-align: left;

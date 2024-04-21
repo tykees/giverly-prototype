@@ -15,10 +15,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 import './navbar.css';
 import Logo from '../../../public/logo.png';
+import { useRouter } from 'next/navigation';
+
 
 
 
 const Navbar = () => {
+  const router = useRouter();
+  const [activeItem, setActiveItem] = useState('');
+
+  const handleItemClick = (path) => {
+    setActiveItem(path);
+  };
   const [isMobile, setIsMobile] = useState(
     typeof window !== 'undefined' ? window.innerWidth < 768 : false
   );
@@ -77,32 +85,33 @@ const Navbar = () => {
 
         <ul className="nav-links text-md container flex items-center gap-2 justify-end text-end">
           <li>
-            <Link href={'/'} className="links">
+          <Link href={'/'} className={`links ${activeItem === '/' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/')}>
               Home
             </Link>
           </li>
           <li>
-            <Link href={'/brand/partner-brands'} className="links">
+          <Link href={'/brand/partner-brands'} className={`links ${activeItem === '/brand/partner-brands' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/brand/partner-brands')}>
               Brands
             </Link>
+
           </li>
           <li>
-            <Link href={'/charity/charity-list'} className="links">
+            <Link href={'/charity/charity-list'} className={`links ${activeItem === '/charity/charity-list' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/charity/charity-list')}>
               Charity
             </Link>
           </li>
           <li>
-            <Link href={'/e-shop'} className="links">
+            <Link href={'/e-shop'} className={`links ${activeItem === '/e-shop' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/e-shop')}>
               Shop
             </Link>
           </li>
           <li>
-            <Link href={'/customer/user-category-signin'} className="links">
+            <Link href={'/customer/user-category-signin'} className={`links ${activeItem === '/customer/user-category-signin' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/customer/user-category-signin')}>
               Log In
             </Link>
           </li>
           <li>
-            <Link href={'/user-category'} className="links">
+            <Link href={'/user-category'} className={`links ${activeItem === '/user-category' ? 'border-b-4 border-green-400 pb-1' : ''}`} onClick={() => handleItemClick('/user-category')}>
               Sign Up
             </Link>
           </li>

@@ -6,6 +6,7 @@ import nintynine from '../../public/99.png';
 import Amalia from '../../public/amalia.png';
 import Africa from '../../public/africa.png';
 import  Flowlogo from '../../public/flowlogo.jpeg';
+
 const Causes = () => {
   return (
     <div>

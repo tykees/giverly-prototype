@@ -16,6 +16,7 @@ import Link from 'next/link';
 import './navbar.css';
 import Logo from '../../../public/logo.png';
 import { useRouter } from 'next/navigation';
+import VoicePromptComponent from '../VoicePromptComponent';
 
 
 
@@ -65,7 +66,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <ul className='pl-40 input_ul'>
+      <ul className='pl-40 flex justify-between items-center gap-4 input_ul'>
+      <li className='text-black text-2xl'>
+      <VoicePromptComponent/>
+      </li>
       <li className="relative">
       <input
         className="w-[260px] h-[50px] px-5 rounded-full outline-none shadow-md"

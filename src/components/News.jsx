@@ -9,7 +9,7 @@ import NBC from '../../public/nbc.png';
 
 const News = () => {
   return (
-    <div className='mt-20 mb-10 py-10 shadow-md'>
+    <div className='mt-20 mb-10 py-10 shadow'>
         <div className='flex justify-center items-center'>
             <p className='border-t w-[100px] md:w-[250px]'></p>
             <p>AS SEEN ON</p>
